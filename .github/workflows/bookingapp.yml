@@ -1,1 +1,8 @@
-
+name: My apps
+'on': push
+jobs:
+  hello-jobs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo text
+        run: 'echo "Hello World!"'
